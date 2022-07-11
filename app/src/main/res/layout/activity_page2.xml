@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    tools:context=".page2">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/image_container"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="1dp" />
+
+    <LinearLayout
+        android:id="@+id/dots_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingBottom="5dp"
+        app:srcCompat="@drawable/ic_header" />
+
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_below="@+id/dots_container"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/buttonNew"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_blue"
+            android:drawableLeft="@drawable/lamp"
+            android:drawablePadding="10dp"
+            android:foreground="@drawable/btn_press"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:text="New Order"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonOrders"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_blue"
+            android:drawableLeft="@drawable/portfel"
+            android:drawablePadding="10dp"
+            android:foreground="@drawable/btn_press"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:text="My Orders"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonPrice"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_blue"
+            android:drawableLeft="@drawable/dollar"
+            android:drawablePadding="10dp"
+            android:foreground="@drawable/btn_press"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:text="PriceList"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonSamples"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_blue"
+            android:drawableLeft="@drawable/sample"
+            android:drawablePadding="10dp"
+            android:foreground="@drawable/btn_press"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:text="Samples"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonReviews"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_blue"
+            android:drawableLeft="@drawable/review"
+            android:drawablePadding="10dp"
+            android:foreground="@drawable/btn_press"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:text="Reviews"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/buttonGuarant"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_blue"
+            android:drawableLeft="@drawable/guarantee"
+            android:drawablePadding="10dp"
+            android:foreground="@drawable/btn_press"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:text="Guarantee"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+        <TextView
+            android:id="@+id/textLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/link"
+            android:textColor="@color/bluebutton"
+            android:textSize="13dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

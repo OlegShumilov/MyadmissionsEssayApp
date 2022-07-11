@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369617224261",
+    "project_id": "myessay-4f258",
+    "storage_bucket": "myessay-4f258.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369617224261:android:3c942edce3a3f9aa8e592c",
+        "android_client_info": {
+          "package_name": "essay.freewriters.myessay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369617224261-5lu0afnbtt80c46fjhacudpqc0f96uld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW1KcLRYTyCf7fQDmLBb0tWO15Hfmuh9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369617224261-5lu0afnbtt80c46fjhacudpqc0f96uld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

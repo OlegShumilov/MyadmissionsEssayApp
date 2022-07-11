@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyEssay</string>
+    <string name="start1">Continue with Facebook</string>
+    <string name="start2">Continue with Google</string>
+    <string name="start3">Get started!</string>
+    <string name="link"><a href="https://myadmissionsessay.com/privacy-policy.html">Privacy Policy of our Service</a></string>
+    <string name="facebook_app_id">373414054281611</string>
+
+
+</resources>
